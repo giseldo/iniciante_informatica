@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0d0d0d;
+    color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.node {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.node:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.central {
+    grid-column: span 3;
+    background-color: #ff007f;
+    color: white;
+    font-size: 1.8em;
+}
+
+.freelancing {
+    background-color: #00ff99;
+}
+
+.programming {
+    background-color: #00ccff;
+}
+
+.moocs {
+    background-color: #ff6600;
+}
+
+.job-search {
+    background-color: #ff3300;
+}
+
+.portfolio {
+    background-color: #cc00ff;
+}
+
+.info-products {
+    background-color: #ffff00;
+}
+
+.instagram-posts {
+    background-color: #00ffcc;
+}
+
+.mind-maps {
+    background-color: #ff3300;
+}
+
+.free-courses {
+    background-color: #0066ff;
+}
+
+.chatbots {
+    background-color: #9900cc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #666;
+}
